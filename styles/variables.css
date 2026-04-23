@@ -1,30 +1,31 @@
 :root {
-  --font-main: "Inter";
-  --font-accent: "PressStart2P";
+  --font-main: "Inter", sans-serif;
+  --font-accent: "PressStart2P", cursive;
 
   --text-weight: 400;
   --title-weight: 785;
 
-  --content-width: 700px;
-  --header-block-size: clamp(20.438rem, 19.252rem + 5.07vw, 23rem);
-  --header-logo-size: clamp(3.063rem, 2.178rem + 3.775vw, 4.063rem);
-  --header-title-size: clamp(0.875rem, 0.543rem + 1.418vw, 1.438rem);
+  --content-width: 700px; 
+  --header-block-size: clamp(20.438rem, 19.252rem + 5.07vw, 23rem); 
+  --header-logo-size: clamp(3.063rem, 2.178rem + 3.775vw, 4.063rem); 
+  --header-title-size: clamp(0.875rem, 0.543rem + 1.418vw, 1.438rem); 
   --header-padding-block: clamp(7.5rem, 7.058rem + 1.887vw, 8rem);
   --page-inline-padding: 0;
-  --card-image-ratio: 1 / 1;
+  --card-image-ratio: 1 / 1; 
 
-  --bg-primary: #fff;
-  --text-primary: #000;
-  --border-primary: #000;
-  --label-stroke-color: #fff;
-  --modal-backdrop: rgb(0 0 0 / 0.75);
+  --bg-primary: #fff;  
+  --text-primary: #000; 
+  --border-primary: #000;  
+  --label-stroke-color: #fff;  
+  --modal-backdrop: rgba(0, 0, 0, 0.75);  
+  
+  --button-text-color: #fff;  
+  --heart-outline: #000;  
+  --heart-fill: #ff0000;  
+  
+  --page-background-color: #e7e7e7; 
 
-  --button-text-color: #fff;
-  --heart-outline: #000;
-  --heart-fill: #ff0000;
-
-  --page-background-color: #e7e7e7;
-  --page-background-image:
+  --page-background-image: 
     repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,
@@ -40,5 +41,9 @@
       #e7e7e7 0%,
       #e7e7e7 0.01%,
       #1a1a1a 100%
-    );
+    ); 
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top left;
 }
